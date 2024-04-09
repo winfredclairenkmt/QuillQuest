@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './AddBook.css'
+import Navbar from './Navbar'
 
 const handleSubmit = async (e, formData) => {
   e.preventDefault();
@@ -44,7 +45,10 @@ function AddBook() {
   const [formData, setFormData] = useState({});
   
   return (
+    <>
+      <Navbar />
     <div className="add">
+    
       <h1>Add Book</h1>
       <form className="addBookForm" onSubmit={(e) => handleSubmit(e, formData)}>
         <div className="title">
@@ -124,7 +128,9 @@ function AddBook() {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
+
 }
 
 export default AddBook;
