@@ -1,4 +1,16 @@
-﻿# QuillQuest
-This is a library management system for a library dubbed QuillQuest. 
-I designed this software to enable the user in this case a librarian to add books in the library database, check inventory, register users of the library,check them in when they borrow books and check them out when they return them.
-To view this webapplication you can visit my site at https://winfredclairenkmt.github.io/QuillQuest/
+## QuillQuest Library Management System
+## Overview
+QuillQuest is a library management system that allows librarians to manage books, check inventory, register users, and manage book borrowing and returns.
+
+## Getting Started
+To view this web application, you can visit [QuillQuest](https://winfredclairenkmt.github.io/QuillQuest/).
+To run the project locally, follow these steps:
+1. Clone the repository:
+   git clone https://github.com/winfredclairenkmt/QuillQuest.git
+2. Navigate to the project directory:
+   cd QuillQuest/quillquest-management-system
+3. Install dependencies:
+   npm install
+4. Start the development server:
+   npm start
+5. If you'd like to contribute to QuillQuest, please fork the repository and submit a pull request. Contributions are welcome!
