@@ -3,7 +3,7 @@
 QuillQuest is a library management system that allows librarians to manage books, check inventory, register users, and manage book borrowing and returns.
 
 ## Getting Started
-To view this web application, you can visit [QuillQuest](https://winfredclairenkmt.github.io/QuillQuest/).
+To view this web application, you can visit https://winfredclairenkmt.github.io/QuillQuest/.
 To run the project locally, follow these steps:
 1. Clone the repository:
    git clone https://github.com/winfredclairenkmt/QuillQuest.git
