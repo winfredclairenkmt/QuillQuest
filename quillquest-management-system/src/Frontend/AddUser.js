@@ -1,5 +1,5 @@
-import './AddUser.css'
 import { useState } from 'react';
+import './AddUser.css'
 
 const handleSubmit = async (e, formData) => {
   e.preventDefault();

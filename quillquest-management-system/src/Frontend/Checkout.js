@@ -1,5 +1,5 @@
-import './Checkout.css'
 import { useState } from 'react';
+import './Checkout.css'
 
 const handleSubmit = async (e, formData) => {
   e.preventDefault();

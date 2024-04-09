@@ -1,35 +1,24 @@
 import React from 'react';
-import logo from 'quillquest-management-system/src/Assets/qq.jpg';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Frontend/Home';
+import AddBook from './Frontend/AddBook';
+import AddUser from './Frontend/AddUser';
+import Checkout from './Frontend/Checkout';
+import GetBook from './Frontend/GetBook';
 
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+      <Route path='/' element={<AddBook/>} />
+      <Route path='/' element={<AddUser/>} />
+      <Route path='/' element={<GetBook/>} />
+      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Checkout/>} />
 
-  {
-    return (
-      <div>
-        <h1>QuillQuest Management System</h1>
-A      </div>
-    );
-  }
+      {/* <Route path='/books/create' element={<CreateBook />} />
+      <Route path='/book {s/details/:id' element={<ShowBook />} />  */}
+      </Routes>
+  )
 }
-
 export default App;

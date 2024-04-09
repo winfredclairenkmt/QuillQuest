@@ -1,12 +1,12 @@
 import './Home.css';
-import qqLogo from 'quillquest-management-system/src/Assets/qq.jpg';
+// import qqLogo from '../Assets/qq.mp4';
 
 const Home = () => {
   console.log('home');
   return (
     <div>
-      <h1>Library Management System</h1>
-      <img src={qqLogo} alt="KLLogo" className="qqLogo" />
+      <h1> QuillQuest Library Management System</h1>
+      {/* <img src={qqlogo} alt="qqlogo" className="qqLogo" /> */}
     </div>
   );
 };
