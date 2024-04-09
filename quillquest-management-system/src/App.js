@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from 'quillquest-management-system/src/Assets/qq.jpg';
 
 
 
@@ -27,8 +27,7 @@ function App() {
     return (
       <div>
         <h1>QuillQuest Management System</h1>
-        <UserManagement />
-      </div>
+A      </div>
     );
   }
 }

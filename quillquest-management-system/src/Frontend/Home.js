@@ -1,12 +1,12 @@
 import './Home.css';
-import KLLogo from '../../Assets/KLLogo.png';
+import qqLogo from 'quillquest-management-system/src/Assets/qq.jpg';
 
 const Home = () => {
   console.log('home');
   return (
     <div>
       <h1>Library Management System</h1>
-      <img src={KLLogo} alt="KLLogo" className="KLLogo" />
+      <img src={qqLogo} alt="KLLogo" className="qqLogo" />
     </div>
   );
 };
