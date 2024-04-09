@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+
 
 function App() {
   return (
@@ -20,19 +22,15 @@ function App() {
       </header>
     </div>
   );
+
+  {
+    return (
+      <div>
+        <h1>QuillQuest Management System</h1>
+        <UserManagement />
+      </div>
+    );
+  }
 }
-
-import React from 'react';
-import UserManagement from './UserManagement';
-
-function App() {
-  return (
-    <div>
-      <h1>Library Management System</h1>
-      <UserManagement />
-    </div>
-  );
-}
-
 
 export default App;
